@@ -1,0 +1,57 @@
+.body {
+ background-color: #C5F0CA;
+ border-color: #37765D;
+ border-style: double;
+ border-width: thick;
+ padding: 25px;
+}
+
+.title {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+}
+
+.sub-title {
+  font-family: 'Major Mono Display', monospace;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+}
+
+.card {
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card-text {
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.dropdown-text {
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 25px;
+}
+
+.list-group-div {
+  margin-bottom: 50px;
+}
+
+.footer {
+  background: #37765D;
+  height: 60px;
+  left: 0;
+  padding: 15px;
+  position: absolute;
+  width: 100%;
+}
+.fab {
+  color: black;
+  padding: 15px;
+}
+
+.fas {
+  color: black;
+  padding: 15px;
+}
