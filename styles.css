@@ -6,6 +6,10 @@
  padding: 25px;
 }
 
+.btn-info {
+  background-color: #257df8;
+}
+
 .title {
   font-family: 'Major Mono Display', monospace;
   text-align: center;
@@ -26,15 +30,27 @@
 }
 
 .card-text {
-font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+. {
+  border: solid;
+  border-color: #37765D;
+  border-width: thick;
 }
 
 .dropdown-text {
-font-family: 'Roboto Condensed', sans-serif;
-font-size: 25px;
+  border: solid;
+  border-color: #37765D;
+  border-width: thick;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 25px;
 }
 
-.list-group-div {
+.press-div {
+  border: solid;
+  border-width: thick;
+  border-color: #37765D;
   margin-bottom: 50px;
 }
 
