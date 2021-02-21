@@ -195,11 +195,11 @@ width: 100%;
 }
 
 .spotify-player {
-     width: 100px;
+     width: 10em;
      height: 50px;
-     margin: auto;
-     position: relative;
-     display: block;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
 }
 
 .spotify-follow-widget {
@@ -207,5 +207,6 @@ width: 100%;
   display: block;
   margin: 0 auto;
   padding-top: 25px;
-  padding-left: 30px;
+  padding-left: 80px;
+  justify-content: center;
 }
