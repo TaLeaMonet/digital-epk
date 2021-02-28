@@ -16,6 +16,10 @@ body {
 	background:  #37765D;
 }
 
+h4 a:hover {
+  color: white;
+}
+
 h3 {
 	text-align: center;
 }
@@ -91,8 +95,8 @@ input[type=submit]:hover {
  padding: 25px;
 }
 
-.btn-info {
-  background-color: #257df8;
+.btn-primary {
+  color: #37765D;
 }
 
 .title {
@@ -147,6 +151,11 @@ input[type=submit]:hover {
   border-width: thick;
   border-color: #37765D;
   margin-bottom: 50px;
+}
+
+.p-4 {
+
+
 }
 
 .footer {
