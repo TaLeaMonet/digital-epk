@@ -32,7 +32,7 @@
 
 <div class="container">
 	<h3>Contact Form</h3>
-	<form action="https://getform.io/f/a012559c-d817-4974-9070-05eba899e003" method="POST" name="contact_form">
+	<form action="https://getform.io/f/a012559c-d817-4974-9070-05eba899e003" method="POST" name="contact_form" onclick="refreshPage()">
 		<label for="name">Name</label>
 		<input id="name" name="name" type="text" required placeholder="Name"/>
 		<br>
@@ -42,7 +42,7 @@
 		<label for="message">Message</label><br>
 		<textarea id="textarea" name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
 		<div class="center">
-			<input name="submit" type="submit" value="Submit" onSubmit="refreshPage()">
+			<input name="submit" type="submit" value="Submit">
 		</div>
 	</form>
 </div>
@@ -68,15 +68,11 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script type='text/javascript'>
-
   function refreshPage() {
     document.getElementById('name').value = null;
     document.getElementById('email').value = null;
     document.getElementById('textarea').value = null;
   }
-
-
-
 </script>
 </body>
 </html>
