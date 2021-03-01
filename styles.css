@@ -219,3 +219,11 @@ width: 100%;
   padding-left: 80px;
   justify-content: center;
 }
+
+.card {
+  transition: transform .2s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
