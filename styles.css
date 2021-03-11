@@ -220,10 +220,10 @@ width: 100%;
   justify-content: center;
 }
 
-.card {
+.zoom {
   transition: transform .2s;
 }
 
-.card:hover {
+.zoom:hover {
   transform: scale(1.2);
 }

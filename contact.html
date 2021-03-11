@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </head>
 
-<body class="body">
+<body class="body" onload="ClearForm()">
   <div class="collapse" id="navbarToggleExternalContent">
   <div class="p-4">
     <h4><a href="epk.html" class="text-white h4">Home</a></h4>
@@ -32,7 +32,7 @@
 
 <div class="container">
 	<h3>Contact Form</h3>
-	<form action="https://getform.io/f/a012559c-d817-4974-9070-05eba899e003" method="POST" name="contact_form" onclick="refreshPage()">
+	<form id="contactForm" action="https://getform.io/f/a012559c-d817-4974-9070-05eba899e003" method="POST" name="contactForm">
 		<label for="name">Name</label>
 		<input id="name" name="name" type="text" required placeholder="Name"/>
 		<br>
@@ -58,6 +58,7 @@
        <a href="mailto:taleamonet.music@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
        <a href="https://www.facebook.com/msincrediblehulk/" target="_blank"><i class="fab fa-facebook-square"></i></a>
        <a href="https://www.instagram.com/msincrediblehulk/" target="_blank"><i class="fab fa-instagram"></i></a>
+       <a href="https://soundcloud.com/ms-incredible-hulk" target="_blank"><i class="fab fa-soundcloud"></i></a>
        <a href="https://taleamonet.tumblr.com/" target="_blank"><i class="fab fa-tumblr-square"></i></a>
        <a href="https://twitter.com/TaleaMonet" target="_blank"><i class="fab fa-twitter"></i></a>
        <a href="https://www.youtube.com/channel/UCHuI6jmQBHEi8bPr7YlKvCw/playlists?view_as=subscriber" target="_blank"><i class="fab fa-youtube"></i></a>
@@ -68,11 +69,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 <script type='text/javascript'>
-  function refreshPage() {
-    document.getElementById('name').value = null;
-    document.getElementById('email').value = null;
-    document.getElementById('textarea').value = null;
-  }
+
+function ClearForm(){
+    document.contactForm.reset();
+}
 </script>
 </body>
 </html>
